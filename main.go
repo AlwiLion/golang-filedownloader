@@ -100,7 +100,7 @@ func downloadFile2(fullURLFile string) error {
 
 	defer file.Close()
 
-	fmt.Printf("Downloaded a file %s with size %d", fileName, size)
+	//fmt.Printf("Downloaded a file %s with size %d", fileName, size)
 	return nil
 }
 
